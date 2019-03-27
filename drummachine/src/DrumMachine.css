@@ -1,0 +1,62 @@
+.drum-pad {
+  width: 50px;
+  margin: 15px;
+  padding: 15px;
+  color: #fff;
+  background-color: #690e03;
+  border-radius: 10px;
+  border: 2px solid #690303;
+  box-shadow: 10px 10px 10px #674d4d;
+  height: 50px;
+  display: inline-block;
+  font-size: x-large;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+#controls {
+  align-self: center;
+  margin: auto;
+}
+
+#drum-machine {
+  text-align: center;
+  border: 2px solid #690303;
+  display: flex;
+  height: auto;
+  margin: auto;
+  box-shadow: 10px 10px 10px #674d4d;
+  margin-top: 50px;
+  width: 30%;
+}
+
+#displayName {
+    background-color: #690e03;
+    height: 2em;
+    text-align: center;
+    line-height: 2em;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.vol {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  background: #690e03;
+  cursor: pointer;
+  margin: 30px;
+  cursor: pointer;
+}
+
+.volValue {
+  padding: 15px;
+  border: 2px solid #690303;
+  box-shadow: 10px 10px 10px #674d4d;
+  font-size: 22px;
+  color: #690e03;
+}
