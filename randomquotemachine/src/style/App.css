@@ -1,0 +1,46 @@
+.App {
+  height: 100vh;
+  background-color: mistyrose;
+}
+
+#author {
+  text-align: right;
+  font-family: cursive;
+  font-size: 15px;
+}
+
+#text, input {
+  font-family: cursive;
+  font-size: 25px;
+}
+
+input {
+  background: none;
+  border: none;
+}
+
+#quote-box {
+  width: 30%;
+  height: auto;
+  position: absolute;
+  border-radius: 25px;
+  top: 35%;
+  right: 35%;
+  padding: 15px;
+}
+
+#new-quote {
+  margin-top: 25px;
+  text-align: center;
+}
+
+button {
+  background-color: white;
+  width: 30%;
+  border-radius: 16px;
+  padding: 20px;
+  border: none;
+  font-weight: bold;
+  color: black;
+  margin: 5px;
+}
